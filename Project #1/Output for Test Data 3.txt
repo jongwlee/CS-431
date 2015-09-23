@@ -1,0 +1,751 @@
+Shortest Job First
+
+The job name is: Job308 and its burst time is: 1
+Job308 finishes with: 0 ms
+The total is: 1
+
+The job name is: Job302 and its burst time is: 3
+Job302 finishes with: 0 ms
+The total is: 4
+
+The job name is: Job312 and its burst time is: 3
+Job312 finishes with: 0 ms
+The total is: 7
+
+The job name is: Job305 and its burst time is: 4
+Job305 finishes with: 0 ms
+The total is: 11
+
+The job name is: Job309 and its burst time is: 4
+Job309 finishes with: 0 ms
+The total is: 15
+
+The job name is: Job301 and its burst time is: 5
+Job301 finishes with: 0 ms
+The total is: 20
+
+The job name is: Job306 and its burst time is: 5
+Job306 finishes with: 0 ms
+The total is: 25
+
+The job name is: Job313 and its burst time is: 7
+Job313 finishes with: 0 ms
+The total is: 32
+
+The job name is: Job304 and its burst time is: 8
+Job304 finishes with: 0 ms
+The total is: 40
+
+The job name is: Job317 and its burst time is: 8
+Job317 finishes with: 0 ms
+The total is: 48
+
+The job name is: Job316 and its burst time is: 11
+Job316 finishes with: 0 ms
+The total is: 59
+
+The job name is: Job307 and its burst time is: 11
+Job307 finishes with: 0 ms
+The total is: 70
+
+The job name is: Job311 and its burst time is: 12
+Job311 finishes with: 0 ms
+The total is: 82
+
+The job name is: Job314 and its burst time is: 15
+Job314 finishes with: 0 ms
+The total is: 97
+
+The job name is: Job315 and its burst time is: 19
+Job315 finishes with: 0 ms
+The total is: 116
+
+The job name is: Job310 and its burst time is: 20
+Job310 finishes with: 0 ms
+The total is: 136
+
+The job name is: Job303 and its burst time is: 25
+Job303 finishes with: 0 ms
+The total is: 161
+
+The average completion for Shortest Job First is: 54.35294117647059
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+| Job308 | Job302 | Job312 | Job305 | Job309 | Job301 | Job306 | Job313 | Job304 | Job317 | Job316 | Job307 | Job311 | Job314 | Job315 | Job310 | Job303 |
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+0        1        4        7       11       15       20       25       32       40       48       59       70       82       97      116      136      161
+
+First Come First Serve
+
+The job name is: Job301 and its burst time is: 5
+Job301 finishes with: 0 ms
+The total is: 5
+
+The job name is: Job302 and its burst time is: 3
+Job302 finishes with: 0 ms
+The total is: 8
+
+The job name is: Job303 and its burst time is: 25
+Job303 finishes with: 0 ms
+The total is: 33
+
+The job name is: Job304 and its burst time is: 8
+Job304 finishes with: 0 ms
+The total is: 41
+
+The job name is: Job305 and its burst time is: 4
+Job305 finishes with: 0 ms
+The total is: 45
+
+The job name is: Job306 and its burst time is: 5
+Job306 finishes with: 0 ms
+The total is: 50
+
+The job name is: Job307 and its burst time is: 11
+Job307 finishes with: 0 ms
+The total is: 61
+
+The job name is: Job308 and its burst time is: 1
+Job308 finishes with: 0 ms
+The total is: 62
+
+The job name is: Job309 and its burst time is: 4
+Job309 finishes with: 0 ms
+The total is: 66
+
+The job name is: Job310 and its burst time is: 20
+Job310 finishes with: 0 ms
+The total is: 86
+
+The job name is: Job311 and its burst time is: 12
+Job311 finishes with: 0 ms
+The total is: 98
+
+The job name is: Job312 and its burst time is: 3
+Job312 finishes with: 0 ms
+The total is: 101
+
+The job name is: Job313 and its burst time is: 7
+Job313 finishes with: 0 ms
+The total is: 108
+
+The job name is: Job314 and its burst time is: 15
+Job314 finishes with: 0 ms
+The total is: 123
+
+The job name is: Job315 and its burst time is: 19
+Job315 finishes with: 0 ms
+The total is: 142
+
+The job name is: Job316 and its burst time is: 11
+Job316 finishes with: 0 ms
+The total is: 153
+
+The job name is: Job317 and its burst time is: 8
+Job317 finishes with: 0 ms
+The total is: 161
+
+The average completion for First Come First Serve is: 79.0
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+| Job301 | Job302 | Job303 | Job304 | Job305 | Job306 | Job307 | Job308 | Job309 | Job310 | Job311 | Job312 | Job313 | Job314 | Job315 | Job316 | Job317 |
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+0        5        8       33       41       45       50       61       62       66       86       98      101      108      123      142      153      161
+
+Round Robin with Time Quantum = 2
+
+The job name is: Job301 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 2
+
+The job name is: Job302 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 4
+
+The job name is: Job303 and its burst time is: 25
+The value still has some running time left and will be placed back into the queue with a burst time of: 23 ms
+The total is: 6
+
+The job name is: Job304 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 8
+
+The job name is: Job305 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 10
+
+The job name is: Job306 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 12
+
+The job name is: Job307 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 14
+
+The job name is: Job308 and its burst time is: 1
+Job308 finishes with: 0 ms
+The total is: 15
+
+The job name is: Job309 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 17
+
+The job name is: Job310 and its burst time is: 20
+The value still has some running time left and will be placed back into the queue with a burst time of: 18 ms
+The total is: 19
+
+The job name is: Job311 and its burst time is: 12
+The value still has some running time left and will be placed back into the queue with a burst time of: 10 ms
+The total is: 21
+
+The job name is: Job312 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 23
+
+The job name is: Job313 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 25
+
+The job name is: Job314 and its burst time is: 15
+The value still has some running time left and will be placed back into the queue with a burst time of: 13 ms
+The total is: 27
+
+The job name is: Job315 and its burst time is: 19
+The value still has some running time left and will be placed back into the queue with a burst time of: 17 ms
+The total is: 29
+
+The job name is: Job316 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 31
+
+The job name is: Job317 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 33
+
+The job name is: Job301 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 35
+
+The job name is: Job302 and its burst time is: 1
+Job302 finishes with: 0 ms
+The total is: 36
+
+The job name is: Job303 and its burst time is: 23
+The value still has some running time left and will be placed back into the queue with a burst time of: 21 ms
+The total is: 38
+
+The job name is: Job304 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 40
+
+The job name is: Job305 and its burst time is: 2
+Job305 finishes with: 0 ms
+The total is: 42
+
+The job name is: Job306 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 44
+
+The job name is: Job307 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 46
+
+The job name is: Job309 and its burst time is: 2
+Job309 finishes with: 0 ms
+The total is: 48
+
+The job name is: Job310 and its burst time is: 18
+The value still has some running time left and will be placed back into the queue with a burst time of: 16 ms
+The total is: 50
+
+The job name is: Job311 and its burst time is: 10
+The value still has some running time left and will be placed back into the queue with a burst time of: 8 ms
+The total is: 52
+
+The job name is: Job312 and its burst time is: 1
+Job312 finishes with: 0 ms
+The total is: 53
+
+The job name is: Job313 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 55
+
+The job name is: Job314 and its burst time is: 13
+The value still has some running time left and will be placed back into the queue with a burst time of: 11 ms
+The total is: 57
+
+The job name is: Job315 and its burst time is: 17
+The value still has some running time left and will be placed back into the queue with a burst time of: 15 ms
+The total is: 59
+
+The job name is: Job316 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 61
+
+The job name is: Job317 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 63
+
+The job name is: Job301 and its burst time is: 1
+Job301 finishes with: 0 ms
+The total is: 64
+
+The job name is: Job303 and its burst time is: 21
+The value still has some running time left and will be placed back into the queue with a burst time of: 19 ms
+The total is: 66
+
+The job name is: Job304 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 68
+
+The job name is: Job306 and its burst time is: 1
+Job306 finishes with: 0 ms
+The total is: 69
+
+The job name is: Job307 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 71
+
+The job name is: Job310 and its burst time is: 16
+The value still has some running time left and will be placed back into the queue with a burst time of: 14 ms
+The total is: 73
+
+The job name is: Job311 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 75
+
+The job name is: Job313 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 77
+
+The job name is: Job314 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 79
+
+The job name is: Job315 and its burst time is: 15
+The value still has some running time left and will be placed back into the queue with a burst time of: 13 ms
+The total is: 81
+
+The job name is: Job316 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 83
+
+The job name is: Job317 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 85
+
+The job name is: Job303 and its burst time is: 19
+The value still has some running time left and will be placed back into the queue with a burst time of: 17 ms
+The total is: 87
+
+The job name is: Job304 and its burst time is: 2
+Job304 finishes with: 0 ms
+The total is: 89
+
+The job name is: Job307 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 91
+
+The job name is: Job310 and its burst time is: 14
+The value still has some running time left and will be placed back into the queue with a burst time of: 12 ms
+The total is: 93
+
+The job name is: Job311 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 95
+
+The job name is: Job313 and its burst time is: 1
+Job313 finishes with: 0 ms
+The total is: 96
+
+The job name is: Job314 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 98
+
+The job name is: Job315 and its burst time is: 13
+The value still has some running time left and will be placed back into the queue with a burst time of: 11 ms
+The total is: 100
+
+The job name is: Job316 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 102
+
+The job name is: Job317 and its burst time is: 2
+Job317 finishes with: 0 ms
+The total is: 104
+
+The job name is: Job303 and its burst time is: 17
+The value still has some running time left and will be placed back into the queue with a burst time of: 15 ms
+The total is: 106
+
+The job name is: Job307 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 108
+
+The job name is: Job310 and its burst time is: 12
+The value still has some running time left and will be placed back into the queue with a burst time of: 10 ms
+The total is: 110
+
+The job name is: Job311 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 112
+
+The job name is: Job314 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 114
+
+The job name is: Job315 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 116
+
+The job name is: Job316 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 118
+
+The job name is: Job303 and its burst time is: 15
+The value still has some running time left and will be placed back into the queue with a burst time of: 13 ms
+The total is: 120
+
+The job name is: Job307 and its burst time is: 1
+Job307 finishes with: 0 ms
+The total is: 121
+
+The job name is: Job310 and its burst time is: 10
+The value still has some running time left and will be placed back into the queue with a burst time of: 8 ms
+The total is: 123
+
+The job name is: Job311 and its burst time is: 2
+Job311 finishes with: 0 ms
+The total is: 125
+
+The job name is: Job314 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 127
+
+The job name is: Job315 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 129
+
+The job name is: Job316 and its burst time is: 1
+Job316 finishes with: 0 ms
+The total is: 130
+
+The job name is: Job303 and its burst time is: 13
+The value still has some running time left and will be placed back into the queue with a burst time of: 11 ms
+The total is: 132
+
+The job name is: Job310 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 134
+
+The job name is: Job314 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 136
+
+The job name is: Job315 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 138
+
+The job name is: Job303 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 140
+
+The job name is: Job310 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 142
+
+The job name is: Job314 and its burst time is: 1
+Job314 finishes with: 0 ms
+The total is: 143
+
+The job name is: Job315 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 145
+
+The job name is: Job303 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 147
+
+The job name is: Job310 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 149
+
+The job name is: Job315 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 151
+
+The job name is: Job303 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 153
+
+The job name is: Job310 and its burst time is: 2
+Job310 finishes with: 0 ms
+The total is: 155
+
+The job name is: Job315 and its burst time is: 1
+Job315 finishes with: 0 ms
+The total is: 156
+
+The job name is: Job303 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 158
+
+The job name is: Job303 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 160
+
+The job name is: Job303 and its burst time is: 1
+Job303 finishes with: 0 ms
+The total is: 161
+
+The average completion for Round Robin2 is: 94.52941176470588
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Job301 | Job302 | Job303 | Job304 | Job305 | Job306 | Job307 | Job308 | Job309 | Job310 | Job311 | Job312 | Job313 | Job314 | Job315 | Job316 | Job317 | Job301 | Job302 | Job303 | Job304 | Job305 | Job306 | Job307 | Job309 | Job310 | Job311 | Job312 | Job313 | Job314 | Job315 | Job316 | Job317 | Job301 | Job303 | Job304 | Job306 | Job307 | Job310 | Job311 | Job313 | Job314 | Job315 | Job316 | Job317 | Job303 | Job304 | Job307 | Job310 | Job311 | Job313 | Job314 | Job315 | Job316 | Job317 | Job303 | Job307 | Job310 | Job311 | Job314 | Job315 | Job316 | Job303 | Job307 | Job310 | Job311 | Job314 | Job315 | Job316 | Job303 | Job310 | Job314 | Job315 | Job303 | Job310 | Job314 | Job315 | Job303 | Job310 | Job315 | Job303 | Job310 | Job315 | Job303 | Job303 | Job303 |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0        2        2        2        2        2        2        2        1        2        2        2        2        2        2        2        2        2        2        1        2        2        2        2        2        2        2        2        1        2        2        2        2        2        1        2        2        1        2        2        2        2        2        2        2        2        2        2        2        2        2        1        2        2        2        2        2        2        2        2        2        2        2        2        1        2        2        2        2        1        2        2        2        2        2        2        1        2        2        2        2        2        2        1        2        2        1
+
+Round Robin with Time Quantum = 3
+
+The job name is: Job301 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 3
+
+The job name is: Job302 and its burst time is: 3
+Job302 finishes with: 0 ms
+The total is: 6
+
+The job name is: Job303 and its burst time is: 25
+The value still has some running time left and will be placed back into the queue with a burst time of: 22 ms
+The total is: 9
+
+The job name is: Job304 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 12
+
+The job name is: Job305 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 15
+
+The job name is: Job306 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 18
+
+The job name is: Job307 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 8 ms
+The total is: 21
+
+The job name is: Job308 and its burst time is: 1
+Job308 finishes with: 0 ms
+The total is: 22
+
+The job name is: Job309 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 25
+
+The job name is: Job310 and its burst time is: 20
+The value still has some running time left and will be placed back into the queue with a burst time of: 17 ms
+The total is: 28
+
+The job name is: Job311 and its burst time is: 12
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 31
+
+The job name is: Job312 and its burst time is: 3
+Job312 finishes with: 0 ms
+The total is: 34
+
+The job name is: Job313 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 37
+
+The job name is: Job314 and its burst time is: 15
+The value still has some running time left and will be placed back into the queue with a burst time of: 12 ms
+The total is: 40
+
+The job name is: Job315 and its burst time is: 19
+The value still has some running time left and will be placed back into the queue with a burst time of: 16 ms
+The total is: 43
+
+The job name is: Job316 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 8 ms
+The total is: 46
+
+The job name is: Job317 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 49
+
+The job name is: Job301 and its burst time is: 2
+Job301 finishes with: 0 ms
+The total is: 51
+
+The job name is: Job303 and its burst time is: 22
+The value still has some running time left and will be placed back into the queue with a burst time of: 19 ms
+The total is: 54
+
+The job name is: Job304 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 57
+
+The job name is: Job305 and its burst time is: 1
+Job305 finishes with: 0 ms
+The total is: 58
+
+The job name is: Job306 and its burst time is: 2
+Job306 finishes with: 0 ms
+The total is: 60
+
+The job name is: Job307 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 63
+
+The job name is: Job309 and its burst time is: 1
+Job309 finishes with: 0 ms
+The total is: 64
+
+The job name is: Job310 and its burst time is: 17
+The value still has some running time left and will be placed back into the queue with a burst time of: 14 ms
+The total is: 67
+
+The job name is: Job311 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 70
+
+The job name is: Job313 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 73
+
+The job name is: Job314 and its burst time is: 12
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 76
+
+The job name is: Job315 and its burst time is: 16
+The value still has some running time left and will be placed back into the queue with a burst time of: 13 ms
+The total is: 79
+
+The job name is: Job316 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 82
+
+The job name is: Job317 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 85
+
+The job name is: Job303 and its burst time is: 19
+The value still has some running time left and will be placed back into the queue with a burst time of: 16 ms
+The total is: 88
+
+The job name is: Job304 and its burst time is: 2
+Job304 finishes with: 0 ms
+The total is: 90
+
+The job name is: Job307 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 93
+
+The job name is: Job310 and its burst time is: 14
+The value still has some running time left and will be placed back into the queue with a burst time of: 11 ms
+The total is: 96
+
+The job name is: Job311 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 99
+
+The job name is: Job313 and its burst time is: 1
+Job313 finishes with: 0 ms
+The total is: 100
+
+The job name is: Job314 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 103
+
+The job name is: Job315 and its burst time is: 13
+The value still has some running time left and will be placed back into the queue with a burst time of: 10 ms
+The total is: 106
+
+The job name is: Job316 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 109
+
+The job name is: Job317 and its burst time is: 2
+Job317 finishes with: 0 ms
+The total is: 111
+
+The job name is: Job303 and its burst time is: 16
+The value still has some running time left and will be placed back into the queue with a burst time of: 13 ms
+The total is: 114
+
+The job name is: Job307 and its burst time is: 2
+Job307 finishes with: 0 ms
+The total is: 116
+
+The job name is: Job310 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 8 ms
+The total is: 119
+
+The job name is: Job311 and its burst time is: 3
+Job311 finishes with: 0 ms
+The total is: 122
+
+The job name is: Job314 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 125
+
+The job name is: Job315 and its burst time is: 10
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 128
+
+The job name is: Job316 and its burst time is: 2
+Job316 finishes with: 0 ms
+The total is: 130
+
+The job name is: Job303 and its burst time is: 13
+The value still has some running time left and will be placed back into the queue with a burst time of: 10 ms
+The total is: 133
+
+The job name is: Job310 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 136
+
+The job name is: Job314 and its burst time is: 3
+Job314 finishes with: 0 ms
+The total is: 139
+
+The job name is: Job315 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 142
+
+The job name is: Job303 and its burst time is: 10
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 145
+
+The job name is: Job310 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 148
+
+The job name is: Job315 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 151
+
+The job name is: Job303 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 154
+
+The job name is: Job310 and its burst time is: 2
+Job310 finishes with: 0 ms
+The total is: 156
+
+The job name is: Job315 and its burst time is: 1
+Job315 finishes with: 0 ms
+The total is: 157
+
+The job name is: Job303 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 160
+
+The job name is: Job303 and its burst time is: 1
+Job303 finishes with: 0 ms
+The total is: 161
+
+The average completion for Round Robin3 is: 92.76470588235294
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Job301 | Job302 | Job303 | Job304 | Job305 | Job306 | Job307 | Job308 | Job309 | Job310 | Job311 | Job312 | Job313 | Job314 | Job315 | Job316 | Job317 | Job301 | Job302 | Job303 | Job304 | Job305 | Job306 | Job307 | Job309 | Job310 | Job311 | Job312 | Job313 | Job314 | Job315 | Job316 | Job317 | Job301 | Job303 | Job304 | Job306 | Job307 | Job310 | Job311 | Job313 | Job314 | Job315 | Job316 | Job317 | Job303 | Job304 | Job307 | Job310 | Job311 | Job313 | Job314 | Job315 | Job316 | Job317 | Job303 | Job307 | Job310 | Job311 | Job314 | Job315 | Job316 | Job303 | Job307 | Job310 | Job311 | Job314 | Job315 | Job316 | Job303 | Job310 | Job314 | Job315 | Job303 | Job310 | Job314 | Job315 | Job303 | Job310 | Job315 | Job303 | Job310 | Job315 | Job303 | Job303 | Job303 | Job301 | Job302 | Job303 | Job304 | Job305 | Job306 | Job307 | Job308 | Job309 | Job310 | Job311 | Job312 | Job313 | Job314 | Job315 | Job316 | Job317 | Job301 | Job303 | Job304 | Job305 | Job306 | Job307 | Job309 | Job310 | Job311 | Job313 | Job314 | Job315 | Job316 | Job317 | Job303 | Job304 | Job307 | Job310 | Job311 | Job313 | Job314 | Job315 | Job316 | Job317 | Job303 | Job307 | Job310 | Job311 | Job314 | Job315 | Job316 | Job303 | Job310 | Job314 | Job315 | Job303 | Job310 | Job315 | Job303 | Job310 | Job315 | Job303 | Job303 |
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0        2        2        2        2        2        2        2        1        2        2        2        2        2        2        2        2        2        2        1        2        2        2        2        2        2        2        2        1        2        2        2        2        2        1        2        2        1        2        2        2        2        2        2        2        2        2        2        2        2        2        1        2        2        2        2        2        2        2        2        2        2        2        2        1        2        2        2        2        1        2        2        2        2        2        2        1        2        2        2        2        2        2        1        2        2        1        3        3        3        3        3        3        3        1        3        3        3        3        3        3        3        3        3        2        3        3        1        2        3        1        3        3        3        3        3        3        3        3        2        3        3        3        1        3        3        3        2        3        2        3        3        3        3        2        3        3        3        3        3        3        3        3        2        1        3        1

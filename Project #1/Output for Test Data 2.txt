@@ -1,0 +1,459 @@
+Shortest Job First
+
+The job name is: Job206 and its burst time is: 1
+Job206 finishes with: 0 ms
+The total is: 1
+
+The job name is: Job207 and its burst time is: 2
+Job207 finishes with: 0 ms
+The total is: 3
+
+The job name is: Job203 and its burst time is: 4
+Job203 finishes with: 0 ms
+The total is: 7
+
+The job name is: Job209 and its burst time is: 5
+Job209 finishes with: 0 ms
+The total is: 12
+
+The job name is: Job205 and its burst time is: 8
+Job205 finishes with: 0 ms
+The total is: 20
+
+The job name is: Job202 and its burst time is: 9
+Job202 finishes with: 0 ms
+The total is: 29
+
+The job name is: Job201 and its burst time is: 11
+Job201 finishes with: 0 ms
+The total is: 40
+
+The job name is: Job204 and its burst time is: 13
+Job204 finishes with: 0 ms
+The total is: 53
+
+The job name is: Job208 and its burst time is: 21
+Job208 finishes with: 0 ms
+The total is: 74
+
+The job name is: Job210 and its burst time is: 22
+Job210 finishes with: 0 ms
+The total is: 96
+
+The average completion for Shortest Job First is: 33.5
+------------------------------------------------------------------------------------------
+| Job206 | Job207 | Job203 | Job209 | Job205 | Job202 | Job201 | Job204 | Job208 | Job210 |
+------------------------------------------------------------------------------------------
+0        1        3        7       12       20       29       40       53       74       96
+
+First Come First Serve
+
+The job name is: Job201 and its burst time is: 11
+Job201 finishes with: 0 ms
+The total is: 11
+
+The job name is: Job202 and its burst time is: 9
+Job202 finishes with: 0 ms
+The total is: 20
+
+The job name is: Job203 and its burst time is: 4
+Job203 finishes with: 0 ms
+The total is: 24
+
+The job name is: Job204 and its burst time is: 13
+Job204 finishes with: 0 ms
+The total is: 37
+
+The job name is: Job205 and its burst time is: 8
+Job205 finishes with: 0 ms
+The total is: 45
+
+The job name is: Job206 and its burst time is: 1
+Job206 finishes with: 0 ms
+The total is: 46
+
+The job name is: Job207 and its burst time is: 2
+Job207 finishes with: 0 ms
+The total is: 48
+
+The job name is: Job208 and its burst time is: 21
+Job208 finishes with: 0 ms
+The total is: 69
+
+The job name is: Job209 and its burst time is: 5
+Job209 finishes with: 0 ms
+The total is: 74
+
+The job name is: Job210 and its burst time is: 22
+Job210 finishes with: 0 ms
+The total is: 96
+
+The average completion for First Come First Serve is: 47.0
+------------------------------------------------------------------------------------------
+| Job201 | Job202 | Job203 | Job204 | Job205 | Job206 | Job207 | Job208 | Job209 | Job210 |
+------------------------------------------------------------------------------------------
+0       11       20       24       37       45       46       48       69       74       96
+
+Round Robin with Time Quantum = 2
+
+The job name is: Job201 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 2
+
+The job name is: Job202 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 4
+
+The job name is: Job203 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 6
+
+The job name is: Job204 and its burst time is: 13
+The value still has some running time left and will be placed back into the queue with a burst time of: 11 ms
+The total is: 8
+
+The job name is: Job205 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 10
+
+The job name is: Job206 and its burst time is: 1
+Job206 finishes with: 0 ms
+The total is: 11
+
+The job name is: Job207 and its burst time is: 2
+Job207 finishes with: 0 ms
+The total is: 13
+
+The job name is: Job208 and its burst time is: 21
+The value still has some running time left and will be placed back into the queue with a burst time of: 19 ms
+The total is: 15
+
+The job name is: Job209 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 17
+
+The job name is: Job210 and its burst time is: 22
+The value still has some running time left and will be placed back into the queue with a burst time of: 20 ms
+The total is: 19
+
+The job name is: Job201 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 21
+
+The job name is: Job202 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 23
+
+The job name is: Job203 and its burst time is: 2
+Job203 finishes with: 0 ms
+The total is: 25
+
+The job name is: Job204 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 27
+
+The job name is: Job205 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 29
+
+The job name is: Job208 and its burst time is: 19
+The value still has some running time left and will be placed back into the queue with a burst time of: 17 ms
+The total is: 31
+
+The job name is: Job209 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 33
+
+The job name is: Job210 and its burst time is: 20
+The value still has some running time left and will be placed back into the queue with a burst time of: 18 ms
+The total is: 35
+
+The job name is: Job201 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 37
+
+The job name is: Job202 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 39
+
+The job name is: Job204 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 41
+
+The job name is: Job205 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 43
+
+The job name is: Job208 and its burst time is: 17
+The value still has some running time left and will be placed back into the queue with a burst time of: 15 ms
+The total is: 45
+
+The job name is: Job209 and its burst time is: 1
+Job209 finishes with: 0 ms
+The total is: 46
+
+The job name is: Job210 and its burst time is: 18
+The value still has some running time left and will be placed back into the queue with a burst time of: 16 ms
+The total is: 48
+
+The job name is: Job201 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 50
+
+The job name is: Job202 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 52
+
+The job name is: Job204 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 54
+
+The job name is: Job205 and its burst time is: 2
+Job205 finishes with: 0 ms
+The total is: 56
+
+The job name is: Job208 and its burst time is: 15
+The value still has some running time left and will be placed back into the queue with a burst time of: 13 ms
+The total is: 58
+
+The job name is: Job210 and its burst time is: 16
+The value still has some running time left and will be placed back into the queue with a burst time of: 14 ms
+The total is: 60
+
+The job name is: Job201 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 62
+
+The job name is: Job202 and its burst time is: 1
+Job202 finishes with: 0 ms
+The total is: 63
+
+The job name is: Job204 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 65
+
+The job name is: Job208 and its burst time is: 13
+The value still has some running time left and will be placed back into the queue with a burst time of: 11 ms
+The total is: 67
+
+The job name is: Job210 and its burst time is: 14
+The value still has some running time left and will be placed back into the queue with a burst time of: 12 ms
+The total is: 69
+
+The job name is: Job201 and its burst time is: 1
+Job201 finishes with: 0 ms
+The total is: 70
+
+The job name is: Job204 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 72
+
+The job name is: Job208 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 74
+
+The job name is: Job210 and its burst time is: 12
+The value still has some running time left and will be placed back into the queue with a burst time of: 10 ms
+The total is: 76
+
+The job name is: Job204 and its burst time is: 1
+Job204 finishes with: 0 ms
+The total is: 77
+
+The job name is: Job208 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 79
+
+The job name is: Job210 and its burst time is: 10
+The value still has some running time left and will be placed back into the queue with a burst time of: 8 ms
+The total is: 81
+
+The job name is: Job208 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 83
+
+The job name is: Job210 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 85
+
+The job name is: Job208 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 87
+
+The job name is: Job210 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 89
+
+The job name is: Job208 and its burst time is: 3
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 91
+
+The job name is: Job210 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 93
+
+The job name is: Job208 and its burst time is: 1
+Job208 finishes with: 0 ms
+The total is: 94
+
+The job name is: Job210 and its burst time is: 2
+Job210 finishes with: 0 ms
+The total is: 96
+
+The average completion for Round Robin2 is: 55.1
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Job201 | Job202 | Job203 | Job204 | Job205 | Job206 | Job207 | Job208 | Job209 | Job210 | Job201 | Job202 | Job203 | Job204 | Job205 | Job208 | Job209 | Job210 | Job201 | Job202 | Job204 | Job205 | Job208 | Job209 | Job210 | Job201 | Job202 | Job204 | Job205 | Job208 | Job210 | Job201 | Job202 | Job204 | Job208 | Job210 | Job201 | Job204 | Job208 | Job210 | Job204 | Job208 | Job210 | Job208 | Job210 | Job208 | Job210 | Job208 | Job210 | Job208 | Job210 |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0        2        2        2        2        2        1        2        2        2        2        2        2        2        2        2        2        2        2        2        2        2        2        2        1        2        2        2        2        2        2        2        2        1        2        2        2        1        2        2        2        1        2        2        2        2        2        2        2        2        1        2
+
+Round Robin with Time Quantum = 3
+
+The job name is: Job201 and its burst time is: 11
+The value still has some running time left and will be placed back into the queue with a burst time of: 8 ms
+The total is: 3
+
+The job name is: Job202 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 6
+
+The job name is: Job203 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 9
+
+The job name is: Job204 and its burst time is: 13
+The value still has some running time left and will be placed back into the queue with a burst time of: 10 ms
+The total is: 12
+
+The job name is: Job205 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 15
+
+The job name is: Job206 and its burst time is: 1
+Job206 finishes with: 0 ms
+The total is: 16
+
+The job name is: Job207 and its burst time is: 2
+Job207 finishes with: 0 ms
+The total is: 18
+
+The job name is: Job208 and its burst time is: 21
+The value still has some running time left and will be placed back into the queue with a burst time of: 18 ms
+The total is: 21
+
+The job name is: Job209 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 24
+
+The job name is: Job210 and its burst time is: 22
+The value still has some running time left and will be placed back into the queue with a burst time of: 19 ms
+The total is: 27
+
+The job name is: Job201 and its burst time is: 8
+The value still has some running time left and will be placed back into the queue with a burst time of: 5 ms
+The total is: 30
+
+The job name is: Job202 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 33
+
+The job name is: Job203 and its burst time is: 1
+Job203 finishes with: 0 ms
+The total is: 34
+
+The job name is: Job204 and its burst time is: 10
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 37
+
+The job name is: Job205 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 40
+
+The job name is: Job208 and its burst time is: 18
+The value still has some running time left and will be placed back into the queue with a burst time of: 15 ms
+The total is: 43
+
+The job name is: Job209 and its burst time is: 2
+Job209 finishes with: 0 ms
+The total is: 45
+
+The job name is: Job210 and its burst time is: 19
+The value still has some running time left and will be placed back into the queue with a burst time of: 16 ms
+The total is: 48
+
+The job name is: Job201 and its burst time is: 5
+The value still has some running time left and will be placed back into the queue with a burst time of: 2 ms
+The total is: 51
+
+The job name is: Job202 and its burst time is: 3
+Job202 finishes with: 0 ms
+The total is: 54
+
+The job name is: Job204 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 57
+
+The job name is: Job205 and its burst time is: 2
+Job205 finishes with: 0 ms
+The total is: 59
+
+The job name is: Job208 and its burst time is: 15
+The value still has some running time left and will be placed back into the queue with a burst time of: 12 ms
+The total is: 62
+
+The job name is: Job210 and its burst time is: 16
+The value still has some running time left and will be placed back into the queue with a burst time of: 13 ms
+The total is: 65
+
+The job name is: Job201 and its burst time is: 2
+Job201 finishes with: 0 ms
+The total is: 67
+
+The job name is: Job204 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 70
+
+The job name is: Job208 and its burst time is: 12
+The value still has some running time left and will be placed back into the queue with a burst time of: 9 ms
+The total is: 73
+
+The job name is: Job210 and its burst time is: 13
+The value still has some running time left and will be placed back into the queue with a burst time of: 10 ms
+The total is: 76
+
+The job name is: Job204 and its burst time is: 1
+Job204 finishes with: 0 ms
+The total is: 77
+
+The job name is: Job208 and its burst time is: 9
+The value still has some running time left and will be placed back into the queue with a burst time of: 6 ms
+The total is: 80
+
+The job name is: Job210 and its burst time is: 10
+The value still has some running time left and will be placed back into the queue with a burst time of: 7 ms
+The total is: 83
+
+The job name is: Job208 and its burst time is: 6
+The value still has some running time left and will be placed back into the queue with a burst time of: 3 ms
+The total is: 86
+
+The job name is: Job210 and its burst time is: 7
+The value still has some running time left and will be placed back into the queue with a burst time of: 4 ms
+The total is: 89
+
+The job name is: Job208 and its burst time is: 3
+Job208 finishes with: 0 ms
+The total is: 92
+
+The job name is: Job210 and its burst time is: 4
+The value still has some running time left and will be placed back into the queue with a burst time of: 1 ms
+The total is: 95
+
+The job name is: Job210 and its burst time is: 1
+Job210 finishes with: 0 ms
+The total is: 96
+
+The average completion for Round Robin3 is: 55.8
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Job201 | Job202 | Job203 | Job204 | Job205 | Job206 | Job207 | Job208 | Job209 | Job210 | Job201 | Job202 | Job203 | Job204 | Job205 | Job208 | Job209 | Job210 | Job201 | Job202 | Job204 | Job205 | Job208 | Job209 | Job210 | Job201 | Job202 | Job204 | Job205 | Job208 | Job210 | Job201 | Job202 | Job204 | Job208 | Job210 | Job201 | Job204 | Job208 | Job210 | Job204 | Job208 | Job210 | Job208 | Job210 | Job208 | Job210 | Job208 | Job210 | Job208 | Job210 | Job201 | Job202 | Job203 | Job204 | Job205 | Job206 | Job207 | Job208 | Job209 | Job210 | Job201 | Job202 | Job203 | Job204 | Job205 | Job208 | Job209 | Job210 | Job201 | Job202 | Job204 | Job205 | Job208 | Job210 | Job201 | Job204 | Job208 | Job210 | Job204 | Job208 | Job210 | Job208 | Job210 | Job208 | Job210 | Job210 |
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+0        2        2        2        2        2        1        2        2        2        2        2        2        2        2        2        2        2        2        2        2        2        2        2        1        2        2        2        2        2        2        2        2        1        2        2        2        1        2        2        2        1        2        2        2        2        2        2        2        2        1        2        3        3        3        3        3        1        2        3        3        3        3        3        1        3        3        3        2        3        3        3        3        2        3        3        2        3        3        3        1        3        3        3        3        3        3        1
